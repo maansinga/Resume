@@ -1,0 +1,144 @@
+body{
+    font-family: Georgia;
+    width: 21cm;
+    height: 29.7cm;
+    background:white;
+    margin: 0px;
+    /* padding-top: 5%; */
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    font-style: normal;
+}
+/* header.top{
+    height: 9.5%;
+} */
+h1{
+    margin: 0;
+    font-size: 36px;
+}
+
+h2, h5{
+    margin: 0;
+}
+h5{
+    font-size: 12pt;
+    display: inline;
+}
+h6{
+    font-size: 11pt;
+    display: inline;
+}
+h4{
+    margin: 0;
+    text-align: left;
+    display: inline;
+    font-style: normal;
+}
+a{
+    text-decoration: none;
+    font-style: normal;
+}
+
+sub{
+    color: #666666;
+    /* font-family: Helvetica; */
+}
+
+ul{
+    margin: 0;
+    padding: 0px;
+}
+
+li{
+    list-style: none;
+    margin: 0;
+}
+hr{
+    margin:0;
+    border: none;
+    border-top: 1px #888 solid;
+}
+address{
+    display: grid;
+    grid-template-columns: 32.5% 67.5%;
+
+}
+p{
+    margin: 0;
+}
+em{
+    font-style: normal;
+    font-weight: bold;
+}
+#name-interests-contacts{
+    height: 4.5%;
+}
+#name-and-interests{
+    width: 50%;
+    float: left;
+    height: 100%;
+}
+#contacts{
+    text-align: right;
+    width: 40%;
+    float: right;
+    height: 100%;
+}
+#links{
+    margin: 0;
+    margin-top: 5px;
+}
+article{
+    margin-top: 10px;
+    font-size: 11pt;
+}
+main{
+    margin-top:5px;
+}
+.skills{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 16pt 16pt 16pt 16pt;
+}
+.content{
+    padding-left: 10px;
+}
+
+.content > ul > li{
+    list-style: circle;
+    padding-top: 2.5px;
+    padding-bottom: 2.5px;
+}
+
+.skills > p{
+    text-align: left;
+}
+
+.special > p{
+    text-align: center;
+    padding: 10px;
+    font-style: italic;
+}
+
+ol{
+    padding-left: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+ol > li{
+    list-style: normal;
+    padding-top: 2.5px;
+    padding-bottom: 2.5px;
+}
+
+.special-interests{
+    text-align: center;
+    font-style: italic;
+    padding: 5px;
+}
+
+.bookmark{
+    color: black;
+    text-decoration: none;
+}
